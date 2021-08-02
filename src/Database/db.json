@@ -4,8 +4,15 @@
       "name": "Arjun Gautam",
       "username": "arjungautam",
       "email": "arjungautam@gmail.com",
-      "Phone": "9863482273",
+      "phone": "9863482273",
       "id": 1
+    },
+    {
+      "name": "Pooja Sharma",
+      "username": "puje",
+      "email": "pujasharma@gmail.com",
+      "phone": "9863482274",
+      "id": 2
     }
   ]
 }
