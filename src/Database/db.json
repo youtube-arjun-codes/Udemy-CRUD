@@ -13,6 +13,34 @@
       "email": "pujasharma@gmail.com",
       "phone": "9863482274",
       "id": 2
+    },
+    {
+      "name": "Rohit Sharma",
+      "username": "hitmatn",
+      "email": "rohit@gmail.com",
+      "phone": "9873482273",
+      "id": 3
+    },
+    {
+      "name": "Virat Kohli",
+      "username": "virat",
+      "email": "virat@gmail.com",
+      "phone": "1231312313",
+      "id": 4
+    },
+    {
+      "name": "Arjun Gautam",
+      "username": "",
+      "email": "arjungautam5431@gmail.com",
+      "phone": "9863482273",
+      "id": 5
+    },
+    {
+      "name": "Arjun Gautam",
+      "username": "arjungautam5431",
+      "email": "arjungautam5431@gmail.com",
+      "phone": "9863482273",
+      "id": 6
     }
   ]
 }
