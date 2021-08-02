@@ -1,6 +1,6 @@
 import {getUsers} from "../Service/api";
 import {useEffect, useState} from "react";
-import {Table, TableBody, TableCell, TableHead, TableRow, makeStyles} from "@material-ui/core";
+import {Table, TableBody, TableCell, TableHead, TableRow, makeStyles, Button, Tab} from "@material-ui/core";
 
 const useStyles = makeStyles({
         table: {
@@ -47,6 +47,7 @@ const AllUsers = () => {
                         <TableCell>UserName</TableCell>
                         <TableCell>Email</TableCell>
                         <TableCell>Phone</TableCell>
+                        <TableCell></TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -57,6 +58,10 @@ const AllUsers = () => {
                             <TableCell>{user.username}</TableCell>
                             <TableCell>{user.email}</TableCell>
                             <TableCell>{user.phone}</TableCell>
+                            <TableCell>
+                                <Button variant={"contained"} style={{marginRight:"10px"}} color={"primary"}>Edit</Button>
+                                <Button variant={"contained"} color={"secondary"}>Delete</Button>
+                            </TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
