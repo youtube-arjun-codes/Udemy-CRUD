@@ -65,8 +65,11 @@ const AllUsers = () => {
                             <TableCell>{user.email}</TableCell>
                             <TableCell>{user.phone}</TableCell>
                             <TableCell>
+                                <Button variant={"contained"} style={{marginRight:"10px"}} component={Link} to={`/user/${user.id}`}>View</Button>
                                 <Button variant={"contained"} style={{marginRight:"10px"}} color={"primary"} component={Link} to={`/edit/${user.id}`}>Edit</Button>
                                 <Button variant={"contained"} color={"secondary"} onClick={()=>deleteUserData(user.id)}>Delete</Button>
+
+
                             </TableCell>
                         </TableRow>
                     ))}
