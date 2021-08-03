@@ -4,19 +4,19 @@
       "name": "Arjun Gautam",
       "username": "arjungautam",
       "email": "arjungautam@gmail.com",
-      "phone": "9863482273",
+      "phone": "986348273",
       "id": 1
     },
     {
       "name": "Pooja Sharma",
-      "username": "puje",
+      "username": "puja1",
       "email": "pujasharma@gmail.com",
       "phone": "9863482274",
       "id": 2
     },
     {
       "name": "Rohit Sharma",
-      "username": "hitmatn",
+      "username": "hitman",
       "email": "rohit@gmail.com",
       "phone": "9873482273",
       "id": 3
@@ -25,22 +25,8 @@
       "name": "Virat Kohli",
       "username": "virat",
       "email": "virat@gmail.com",
-      "phone": "1231312313",
+      "phone": "981276612123",
       "id": 4
-    },
-    {
-      "name": "Arjun Gautam",
-      "username": "",
-      "email": "arjungautam5431@gmail.com",
-      "phone": "9863482273",
-      "id": 5
-    },
-    {
-      "name": "Arjun Gautam",
-      "username": "arjungautam5431",
-      "email": "arjungautam5431@gmail.com",
-      "phone": "9863482273",
-      "id": 6
     }
   ]
 }

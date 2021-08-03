@@ -32,7 +32,7 @@ const AddUsers = () => {
 
     const addUserDetails=async ()=>{
         await addUser(user)
-        history.push("./all")
+        history.push("/all")
     }
 
     return (
